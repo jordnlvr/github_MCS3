@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>ff5c1524-f2c9-47e9-8498-0c0acbdae736</ProjectGuid>
+    <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".abproject" />
+    <Content Include="cordova.android.js" />
+    <Content Include="cordova.ios.js" />
+    <Content Include="cordova.wp8.js" />
+    <Content Include="css\foundation.css" />
+    <Content Include="css\foundation.min.css" />
+    <Content Include="css\ionic.css" />
+    <Content Include="css\ionic.min.css" />
+    <Content Include="css\kendo.mobile.all.min.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\ratchet-theme-ios.css" />
+    <Content Include="css\ratchet-theme-ios.min.css" />
+    <Content Include="css\ratchetCS.css" />
+    <Content Include="css\ratchet.min.css" />
+    <Content Include="fonts\AurulentSans-Bold.otf" />
+    <Content Include="fonts\AurulentSans-BoldItalic.otf" />
+    <Content Include="fonts\AurulentSans-Italic.otf" />
+    <Content Include="fonts\AurulentSans-Regular.otf" />
+    <Content Include="css\icomoon.eot" />
+    <Content Include="css\icomoon.svg" />
+    <Content Include="css\icomoon.ttf" />
+    <Content Include="css\icomoon.woff" />
+    <Content Include="fonts\ratchicons.eot" />
+    <Content Include="fonts\ratchicons.svg" />
+    <Content Include="fonts\ratchicons.ttf" />
+    <Content Include="fonts\ratchicons.woff" />
+    <Content Include="img\2b55ab2.jpg" />
+    <Content Include="img\blueOrngBall32.png" />
+    <Content Include="img\blueOrngDandM2.png" />
+    <Content Include="img\blueOrngDandM2_250.png" />
+    <Content Include="img\blueorngSplash.png" />
+    <Content Include="img\blueorngSplash320.png" />
+    <Content Include="img\candy1Small.png" />
+    <Content Include="img\colors.png" />
+    <Content Include="img\comerica.jpg" />
+    <Content Include="img\gradientBack.png" />
+    <Content Include="img\nukworld.jpg" />
+    <Content Include="img\outside.png" />
+    <Content Include="img\pncfireworks2.jpg" />
+    <Content Include="img\pncfireworks3.png" />
+    <Content Include="img\road.jpg" />
+    <Content Include="img\SoftballNight.jpg" />
+    <Content Include="img\SportMurals.jpg" />
+    <Content Include="page1.html" />
+    <Content Include="index.html" />
+    <Content Include="pageTemplate.html" />
+    <Content Include="js\cession.js" />
+    <Content Include="kitchenSink.html" />
+    <Content Include="js\foundation.min.js" />
+    <Content Include="js\foundation\foundation.abide.js" />
+    <Content Include="js\foundation\foundation.accordion.js" />
+    <Content Include="js\foundation\foundation.alert.js" />
+    <Content Include="js\foundation\foundation.clearing.js" />
+    <Content Include="js\foundation\foundation.dropdown.js" />
+    <Content Include="js\foundation\foundation.equalizer.js" />
+    <Content Include="js\foundation\foundation.interchange.js" />
+    <Content Include="js\foundation\foundation.joyride.js" />
+    <Content Include="js\foundation\foundation.js" />
+    <Content Include="js\foundation\foundation.magellan.js" />
+    <Content Include="js\foundation\foundation.offcanvas.js" />
+    <Content Include="js\foundation\foundation.orbit.js" />
+    <Content Include="js\foundation\foundation.reveal.js" />
+    <Content Include="js\foundation\foundation.slider.js" />
+    <Content Include="js\foundation\foundation.tab.js" />
+    <Content Include="js\foundation\foundation.tooltip.js" />
+    <Content Include="js\foundation\foundation.topbar.js" />
+    <Content Include="js\foundation\jquery.cookie.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\kendo.mobile.min.js" />
+    <Content Include="js\push.js" />
+    <Content Include="js\ratchet.js" />
+    <Content Include="js\vendor\fastclick.js" />
+    <Content Include="js\vendor\jquery.cookie.js" />
+    <Content Include="js\vendor\jquery.js" />
+    <Content Include="js\vendor\modernizr.js" />
+    <Content Include="js\vendor\placeholder.js" />
+    <Content Include="img\pncfireworks.jpg" />
+    <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
+    <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
+    <Resource Include="App_Resources\iOS\Default.png" />
+    <Resource Include="App_Resources\iOS\Default@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-40.png" />
+    <Resource Include="App_Resources\iOS\icon-40@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-60.png" />
+    <Resource Include="App_Resources\iOS\icon-60@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-72.png" />
+    <Resource Include="App_Resources\iOS\icon-72@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-76.png" />
+    <Resource Include="App_Resources\iOS\icon-76@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small@2x.png" />
+    <Resource Include="App_Resources\iOS\icon.png" />
+    <Resource Include="App_Resources\iOS\icon@2x.png" />
+    <Resource Include="App_Resources\WP8\ApplicationIcon.png" />
+    <Resource Include="App_Resources\WP8\SplashScreenImage.jpg" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\110x110.png" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\202x202.png" />
+    <Content Include="css\index.css" />
+    <Content Include="img\cordova.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="js\index.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Resources\" />
+    <Folder Include="App_Resources\Android\" />
+    <Folder Include="App_Resources\Android\drawable-hdpi\" />
+    <Folder Include="App_Resources\Android\drawable-ldpi\" />
+    <Folder Include="App_Resources\Android\drawable-mdpi\" />
+    <Folder Include="App_Resources\Android\drawable-nodpi\" />
+    <Folder Include="App_Resources\iOS\" />
+    <Folder Include="App_Resources\WP8\" />
+    <Folder Include="App_Resources\WP8\Tiles\" />
+    <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
+    <Folder Include="css\" />
+    <Folder Include="img\" />
+    <Folder Include="js\" />
+    <Folder Include="js\foundation\" />
+    <Folder Include="js\vendor\" />
+    <Folder Include="fonts\" />
+    <Folder Include="Plugins\" />
+  </ItemGroup>
+  <Import Project="$(IceniumTargets)Build.targets" />
+  <!--
+    TODO: Uncomment this code if you need to customize the build process.
+    <Target Name="BeforeBuild">
+        <Message Text="TODO: Implement BeforeBuild" Importance="high" />
+    </Target>
+
+    <Target Name="AfterBuild">
+        <Message Text="TODO: Implement AfterBuild" Importance="high" />
+    </Target>
+    -->
+</Project>
