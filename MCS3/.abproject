@@ -2,17 +2,20 @@
   "ProjectName": "MCS3",
   "ProjectGuid": "ff5c1524-f2c9-47e9-8498-0c0acbdae736",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.MCS3",
-  "DisplayName": "MCS3",
-  "Author": "",
-  "Description": "",
-  "BundleVersion": "1.0",
+  "AppIdentifier": "com.seale.MCS3",
+  "DisplayName": "Concessions",
+  "Author": "Kelly Seale",
+  "Description": "Concession Stand app for Warren",
+  "BundleVersion": "1.01",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
     "1",
     "2"
   ],
-  "iOSBackgroundMode": [],
+  "iOSBackgroundMode": [
+    "location",
+    "newsstand"
+  ],
   "WP8TileTitle": "",
   "WP8Publisher": "",
   "WP8Capabilities": [],
