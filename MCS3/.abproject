@@ -6,7 +6,7 @@
   "DisplayName": "Concessions",
   "Author": "Kelly Seale",
   "Description": "Concession Stand app for Warren",
-  "BundleVersion": "1.01",
+  "BundleVersion": "1.011",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
     "1",
